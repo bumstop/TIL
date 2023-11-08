@@ -32,3 +32,9 @@
 <!-- 메인 JS가 아래쪽에 위치 -->
 <script src="메인JS" data-plugins="transform-es2015-modules-umd" type="text/babel"></script>
 ```
+
+* 리액트 이미지 삽입
+
+    리액트 이미지등 정적 컨텐츠는 public 폴더에 넣어줘야 올바른 경로로 읽어온다.
+
+    (src 폴더에) 넣어두면 경로를 읽지 못한다.

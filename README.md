@@ -14,10 +14,20 @@
 
   ***
 
-- **[ 3D 애니메이션 : 입체적으로 보이게하는 속성 ]**
-  - transform-style: preserve-3d;
-    <br/><br/>
+- **[ display: contents ]**
+
+  속성이 부여된 요소의 자식이 자신의 부모를 무시하고, <br/>
+  조부모의 직계 자식인 것처럼 동작하게 하는 속성
+
   ***
+
+- **[ transform-style: preserve-3d ]**
+
+  - 3D 애니메이션 속성 - 입체적으로 보이게 하는 속성
+    <br/><br/>
+
+  ***
+
 - **[ svg 라인 애니메이션을 위한 중요속성 ]**
 
   1. stroke-dasharray : 선과 공백으로 만드는 점선셋팅

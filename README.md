@@ -1,16 +1,31 @@
 # TIL
-* [ 마크다운(Markdown) 사용법 ]   
+* **[ 마크다운(Markdown) 사용법 ]**   
  <https://gist.github.com/ihoneymon/652be052a0727ad59601>
 ---
 # CSS
-## [ 폰트 파일 적용하기 ]
-<https://velog.io/@jehjong/CSS%EC%97%90-%ED%8F%B0%ED%8A%B8-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0-%EC%9B%B9%ED%8F%B0%ED%8A%B8-%ED%8F%B0%ED%8A%B8-%ED%8C%8C%EC%9D%BC#%ED%8F%B0%ED%8A%B8-%ED%8C%8C%EC%9D%BC-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0>
+* **[ 폰트 파일 적용하기 ]**
+
+    - <https://velog.io/@jehjong/CSS%EC%97%90-%ED%8F%B0%ED%8A%B8-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0-%EC%9B%B9%ED%8F%B0%ED%8A%B8-%ED%8F%B0%ED%8A%B8-%ED%8C%8C%EC%9D%BC#%ED%8F%B0%ED%8A%B8-%ED%8C%8C%EC%9D%BC-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0>
+    ---
+* **[ 3D 애니메이션 : 입체적으로 보이게하는 속성 ]**
+
+    - transform-style: preserve-3d;
+    ---
+* **[ svg 라인 애니메이션을 위한 중요속성 ]** 
+
+    1. stroke-dasharray : 선과 공백으로 만드는 점선셋팅 
+    - 단위없이 숫자만 쓰면 px단위
+    - 숫자를 하나만 쓰면 선,공백이 동일하게 셋팅됨
+    - 숫자를 2개 이상 쓰면 선,공백 순으로 크기를 셋팅함
+    [ 만일 %단위를 쓰면? ]
+    -> 50%를 주고 몇조각 나는지 세어본다!
+    
+    2. stroke-dashoffset :
+    선, 공백 순서에서 시작위치 셋팅 -> 공백부터 시작가능!
 
 
-* 입체적으로 보이게하는 속성
 
-    transform-style: preserve-3d;
-
+---
 # JS
 
 ## React
